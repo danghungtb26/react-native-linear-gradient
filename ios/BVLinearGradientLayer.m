@@ -11,7 +11,7 @@
     if (self)
     {
         self.needsDisplayOnBoundsChange = YES;
-        self.masksToBounds = YES;
+        self.masksToBounds = NO;
         _startPoint = CGPointMake(0.5, 0.0);
         _endPoint = CGPointMake(0.5, 1.0);
         _angleCenter = CGPointMake(0.5, 0.5);
